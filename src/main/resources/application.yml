@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: hello-spring
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/workout
+    username: byun618
+    password: 1473026130a!
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    database: mysql
+#    database-platform: org.hibernate.dialect.MySQLDialect
+#    #    properties.hibernate.show_sql: true
+#    properties:
+#      hibernate:
+#        show_sql: true
+#        format_sql: true
+
+server:
+  port: 3010
+  servlet:
+    context-path: /
+  error:
+    include-message: always

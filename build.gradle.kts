@@ -6,6 +6,12 @@ plugins {
 	kotlin("plugin.jpa") version "1.9.25"
 }
 
+allOpen{
+	annotation(fqName = "javax.persistence.Entity")
+	annotation(fqName = "javax.persistence.Embeddable")
+	annotation(fqName = "javax.persistence.MappedSuperclass")
+}
+
 group = "byun618"
 version = "0.0.1-SNAPSHOT"
 

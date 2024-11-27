@@ -8,6 +8,7 @@ spring:
     password: 1473026130a!
 
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: create
       naming:

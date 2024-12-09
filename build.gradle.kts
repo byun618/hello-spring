@@ -26,6 +26,9 @@ repositories {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/io.github.serpro69/kotlin-faker
+	implementation("io.github.serpro69:kotlin-faker:1.16.0")
+
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
